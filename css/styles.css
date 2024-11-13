@@ -1,3 +1,83 @@
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/roboto-v32-latin-100.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/roboto-v32-latin-300.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v32-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v32-latin-500.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v32-latin-700.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/roboto-v32-latin-900.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/play-v19-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/play-v19-latin-700.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 :root{
     --primary-text-color: #011C44;
     --brand-dark-color: #2B7FFF;
@@ -10,6 +90,7 @@ body{
     font-size: 18px;
     line-height: 1.2;
     color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
 }
 
 ul li{
@@ -21,6 +102,7 @@ ul li{
     color: var(--primary-text-color);
     font-weight: 400;
     font-size: 18px;
+    font-family: 'Play', sans-serif;
 }
 
 .header-link:hover{
@@ -30,10 +112,12 @@ ul li{
 
 /*Hero section*/
 .main-title{
-    text-transform: uppercase;
+    text-transform: capitalize;
     line-height: 0.8;
     font-size: 140px;
     font-weight: 700;
+    font-family: 'Play', sans-serif;
+    color: var(--brand-dark-color);
 }
 
 .button-order{
@@ -60,6 +144,7 @@ ul li{
 .about-title{
     font-weight: 700;
     font-size: 64px;
+    font-family: 'Play', sans-serif;
 }
 
 .about-title .accent{
@@ -77,6 +162,7 @@ ul li{
 .reasons-title{
     font-size: 64px;
     font-weight: 700;
+    font-family: 'Play', sans-serif;
 }
 
 .reasons-title .accent{
@@ -91,6 +177,7 @@ ul li{
 .procedures-title{
     font-size: 64px;
     font-weight: 700;
+    font-family: 'Play', sans-serif;
 }
 
 .procedures-title .accent{
@@ -101,6 +188,7 @@ ul li{
 .address-title{
     font-size: 64px;
     font-weight: 700;
+    font-family: 'Play', sans-serif;
 }
 
 .address-title .accent{
