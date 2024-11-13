@@ -1,0 +1,118 @@
+:root{
+    --primary-text-color: #011C44;
+    --brand-dark-color: #2B7FFF;
+    --brand-white-color: #FFFFFF;
+    --grey-color: #4A4A4A;
+}
+
+body{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    color: var(--primary-text-color);
+}
+
+ul li{
+    list-style: none;
+}
+
+/*Header*/
+.header-link{
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.header-link:hover{
+    color: var(--brand-dark-color);
+}
+
+
+/*Hero section*/
+.main-title{
+    text-transform: uppercase;
+    line-height: 0.8;
+    font-size: 140px;
+    font-weight: 700;
+}
+
+.button-order{
+    background-color: var(--brand-dark-color);
+    color: var(--brand-white-color);
+    border: 2px solid var(--brand-dark-color);
+    border-radius: 32px;
+    font-weight: 600;
+}
+
+.button-order:hover{
+    background-color: transparent;
+    color: var(--primary-text-color);
+    border-radius: 32px;
+}
+
+.text-order{
+    color: var(--grey-color);
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+/*About section*/
+.about-title{
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.about-title .accent{
+    color: var(--brand-dark-color);
+    text-transform: capitalize;
+}
+
+.about-section-paragraph{
+    line-height: 1.7;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/*Why us section*/
+.reasons-title{
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.reasons-title .accent{
+    color: var(--brand-dark-color);
+}
+
+.reasons-paragraph{
+    line-height: 1.3;
+}
+
+/*Procedures section*/
+.procedures-title{
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.procedures-title .accent{
+    color: var(--brand-dark-color);
+}
+
+/*Contact section*/
+.address-title{
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.address-title .accent{
+    color: var(--brand-dark-color);
+}
+
+/*Footer*/
+footer{
+    background-color: var(--primary-text-color);
+}
+
+.footer-link{
+    color: var(--brand-white-color);
+    font-size: 16px;
+}
